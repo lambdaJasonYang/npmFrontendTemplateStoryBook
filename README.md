@@ -52,3 +52,15 @@ npm run build
 npm run cleandoc
 npm run doc
 ```
+
+## Deploy docs
+
+Choose to deploy w/ github action as static page template
+
+Modify `path: '.'` ==> `path: './docs'`
+
+```.yml
+        with:
+          # Upload entire repository
+          path: './docs'
+```
