@@ -1,6 +1,6 @@
 {
-  "name": "countcores",
-  "version": "1.0.4",
+  "name": "npmpackagetypedocdemo",
+  "version": "1.0.0",
   "description": "Counts the number of cpu cores",
   "main": "dist/index.js",
   "types": "@types/global.d.ts",
@@ -21,8 +21,7 @@
     "url": "git+https://github.com/userJY/npmPackage_demo.git"
   },
   "keywords": [
-    "CPU cores",
-    "browser"
+    "demo"
   ],
   "author": "UserJY",
   "license": "ISC",
