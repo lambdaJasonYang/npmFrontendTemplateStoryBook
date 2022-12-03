@@ -1,5 +1,4 @@
-# Gets the number of cores of machine
-
+# MWS - Template for building frontend npm packages via Storybook
 ## Summary
 
 1. Write your library in `index.ts` 
@@ -7,7 +6,7 @@
 3. Create a story for your library like `trial1.stories.ts`, importing from `index.js` to demo it on localhost:6006
 4. `npm pub` Package and publish `dist/` folder
 
-
+The brother repo is [https://github.com/userJY/npmFrontendTemplateWebpack](https://github.com/userJY/npmFrontendTemplateWebpack) which uses Webpack dev server instead of Storybook to demo the package.
 
 ## How to Use
 
