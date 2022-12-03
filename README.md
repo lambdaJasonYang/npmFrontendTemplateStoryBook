@@ -1,5 +1,14 @@
 # Gets the number of cores of machine
 
+## Summary
+
+1. Write your library in `index.ts` 
+2. `npm run build` : Generate types `index.d.ts` and library `index.js` via typescript tsc into `dist/` folder
+3. Create a story for your library like `trial1.stories.ts`, importing from `index.js` to demo it on localhost:6006
+4. `npm pub` Package and publish `dist/` folder
+
+
+
 ## How to Use
 
 ```bash
@@ -11,7 +20,7 @@ import numcores from 'countcores';
 console.log(numcores)
 ```
 
-## publishing npm package
+## How it was made
 
 
 * package.json
@@ -20,7 +29,7 @@ console.log(numcores)
   * Add `"types" : "dist/index.d.ts"` - Detect types entry point 
 * tsconfig.json
   * Add `"outDir": "./dist",` - Output to dist folder
-  * Add `"exclude": ["dist",...]` - Do not typecheck generated files
+  * Add `"exclude": ["dist","storybook"...]` - Do not typecheck generated files or storybook
   * Add `"declaration": true,` - generate index.d.ts
   * Add `"typeRoots": ["@types", "node_modules/@types"],` - detect your own custom types folder `@types`
     * `mkdir @types` and add `global.d.ts` 
@@ -33,6 +42,7 @@ console.log(numcores)
 ```bash
 npm install typedoc-plugin-missing-exports
 npm install --save-dev typedoc-umlclass
+npm install typedoc
 ```
 
 Add these script to package.json
@@ -40,17 +50,20 @@ Add these script to package.json
 ```json
   "scripts": {
     "build": "npm run clean && tsc",
-    "clean": "tsc --build --clean",
-    "cleandoc": "rm -r docs",
-    "doc": "typedoc --entryPointStrategy resolve .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "npm run cleandist && npm run cleandocs",
+    "cleandist": "tsc --build --clean",
+    "cleandocs": "rm -rf docs",
+    "docs": "typedoc --options typedoc.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "pub": "npm run clean && npm run build && npm run docs && npm publish"
   },
 ```
 
 ```bash
 npm run build
-npm run cleandoc
-npm run doc
+npm run docs
 ```
 
 ## Storybook
