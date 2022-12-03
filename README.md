@@ -53,6 +53,18 @@ npm run cleandoc
 npm run doc
 ```
 
+## Storybook
+
+* `trial.stores.ts` is the story that uses our demo library.   
+
+```bash
+npx storybook init
+# select HTML
+export NODE_OPTIONS=--openssl-legacy-provider
+npm storybook start
+#visit localhost:6006
+```
+
 ## Deploy docs
 
 Choose to deploy w/ github action as static page template
