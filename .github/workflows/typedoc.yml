@@ -3,6 +3,7 @@ name: Deploy typedoc content to Pages
 
 on:
   # Runs on pushes targeting the default branch
+  # uncomment the 2 lines below to use
   # push:
   #   branches: ["main"]
 
