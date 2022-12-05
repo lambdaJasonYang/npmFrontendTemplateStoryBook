@@ -3,7 +3,7 @@
 
 1. Write your library in `index.ts` 
 2. `npm run build` : Generate types `index.d.ts` and library `index.js` via typescript tsc into `dist/` folder
-3. Create a story for your library like `trial1.stories.ts`, importing from `index.js` to demo it on localhost:6006
+3. Create a story for your library like "stories/trial1.stories.ts" and `import { cores } from '../dist/index.js'` to demo it on localhost:6006
 4. `npm pub` Package and publish `dist/` folder
 
 The brother repo is [https://github.com/userJY/npmFrontendTemplateWebpack](https://github.com/userJY/npmFrontendTemplateWebpack) which uses Webpack dev server instead of Storybook to demo the package.
@@ -77,9 +77,12 @@ npm storybook start
 #visit localhost:6006
 ```
 
-## Deploy docs
+## Export docs
 
 Choose to deploy w/ github action as static page template
+
+
+### Deploy typedoc on ghpages
 
 Modify `path: '.'` ==> `path: './docs'`
 
@@ -87,4 +90,18 @@ Modify `path: '.'` ==> `path: './docs'`
         with:
           # Upload entire repository
           path: './docs'
+```
+
+### Deploy typedoc on ghpages
+
+```bash
+npm run build-storybook
+```
+
+Modify `path: '.'` ==> `path: './storybook-static'`
+
+```.yml
+        with:
+          # Upload entire repository
+          path: './storybook-static'
 ```

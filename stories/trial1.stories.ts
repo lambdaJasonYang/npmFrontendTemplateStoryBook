@@ -5,18 +5,23 @@ export default {
     title: 'hi',
 } as Meta;
 
-const appendSibling = (src,tgt) => {src.parentNode.insertBefore(tgt,src.nextSibling)};
+const appendSibling = (src,tgt) => {src.parentNode?.insertBefore(tgt,src.nextSibling)};
+
+//Storybook works better with react components.
 
 export const Primary: StoryFn = (): HTMLElement => {
-    const dummyElement = document.createElement('div');
+    const dummy = document.createElement('div');
 
     window.onload = ()=> {
         //demo your HTML elements here; why not directly just return it?
-        //Sometimes your library requires the element is fully loaded or else it wont work
+        //Sometimes your HTML requires the element is fully loaded or else it wont work
+    
         const btn = document.createElement('button');
         btn.innerText = cores!.toString();
-        appendSibling(dummyElement,btn)
+        dummy.appendChild(btn)
+        
 
     }
-    return dummyElement;
+    //if react component, we can just return it without onload.
+    return dummy;
 };
