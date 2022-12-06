@@ -2,14 +2,15 @@
   "name": "frontendnpmstorybooktemplate",
   "version": "1.0.0",
   "description": "Enter your description here",
-  "main": "dist/index.js",
-  "types": "@types/global.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "type": "module",
   "files": [
     "dist",
     "README.md"
   ],
   "scripts": {
+    "tsc": "tsc",
     "build": "npm run clean && tsc",
     "clean": "npm run cleandist && npm run cleandocs",
     "cleandist": "tsc --build --clean",

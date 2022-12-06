@@ -9,4 +9,5 @@ declare class bob implements bobby {
     constructor(x: string);
 }
 declare const cores: (number | undefined);
-export { cores, customtypedstuff, someexternalStuff, somexternalStuff2, bob };
+declare const drawCan: () => HTMLCanvasElement;
+export { drawCan, cores, customtypedstuff, someexternalStuff, somexternalStuff2, bob };
