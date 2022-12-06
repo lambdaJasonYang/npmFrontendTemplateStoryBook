@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="212px" preserveAspectRatio="none" style="width:409px;height:212px;background:#00000000;" version="1.1" viewBox="0 0 409 212" width="409px" zoomAndPan="magnify"><defs><filter height="300%" id="fc7r72hwj9uxg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0cec4021880ebd3c25ba82cc990e2d74]
+class ScrollOptions--><rect codeLine="4" fill="#FEFECE" filter="url(#fc7r72hwj9uxg)" height="52.8047" id="ScrollOptions" style="stroke:#A80036;stroke-width:1.5;" width="169" x="113" y="7"/><ellipse cx="153.65" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M149.5719,18.7656 L149.5719,16.6094 L156.9625,16.6094 L156.9625,18.7656 L154.4938,18.7656 L154.4938,26.8438 L156.9625,26.8438 L156.9625,29 L149.5719,29 L149.5719,26.8438 L152.0406,26.8438 L152.0406,18.7656 L149.5719,18.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="173.35" y="27.1543">ScrollOptions</text><line style="stroke:#A80036;stroke-width:1.5;" x1="114" x2="281" y1="39" y2="39"/><ellipse cx="124" cy="50" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="133" y="53.2104">behavior : ScrollBehavior</text><!--MD5=[51998648256eceb8a81cac6b2584d407]
+class ScrollToOptions--><rect codeLine="7" fill="#FEFECE" filter="url(#fc7r72hwj9uxg)" height="78.4141" id="ScrollToOptions" style="stroke:#A80036;stroke-width:1.5;" width="169" x="7" y="120"/><ellipse cx="40.9" cy="136" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M36.8219,131.7656 L36.8219,129.6094 L44.2125,129.6094 L44.2125,131.7656 L41.7438,131.7656 L41.7438,139.8438 L44.2125,139.8438 L44.2125,142 L36.8219,142 L36.8219,139.8438 L39.2906,139.8438 L39.2906,131.7656 L36.8219,131.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="95" x="59.1" y="140.1543">ScrollToOptions</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="175" y1="152" y2="152"/><ellipse cx="18" cy="163" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="27" y="166.2104">behavior : ScrollBehavior</text><ellipse cx="18" cy="175.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="27" y="179.0151">left : number</text><ellipse cx="18" cy="188.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="27" y="191.8198">top : number</text><!--MD5=[621b34574202a19c0e5b4e9a8e2f949e]
+class ScrollIntoViewOptions--><rect codeLine="13" fill="#FEFECE" filter="url(#fc7r72hwj9uxg)" height="78.4141" id="ScrollIntoViewOptions" style="stroke:#A80036;stroke-width:1.5;" width="184" x="211.5" y="120"/><ellipse cx="234.6" cy="136" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M230.5219,131.7656 L230.5219,129.6094 L237.9125,129.6094 L237.9125,131.7656 L235.4438,131.7656 L235.4438,139.8438 L237.9125,139.8438 L237.9125,142 L230.5219,142 L230.5219,139.8438 L232.9906,139.8438 L232.9906,131.7656 L230.5219,131.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="134" x="250.4" y="140.1543">ScrollIntoViewOptions</text><line style="stroke:#A80036;stroke-width:1.5;" x1="212.5" x2="394.5" y1="152" y2="152"/><ellipse cx="222.5" cy="163" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="231.5" y="166.2104">behavior : ScrollBehavior</text><ellipse cx="222.5" cy="175.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="231.5" y="179.0151">block : ScrollLogicalPosition</text><ellipse cx="222.5" cy="188.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="231.5" y="191.8198">inline : ScrollLogicalPosition</text><!--MD5=[20dac53dccf2a1feab987797dfd8fd39]
+reverse link ScrollOptions to ScrollToOptions--><path codeLine="12" d="M162.45,75.34 C150.16,89.66 136.41,105.68 124.31,119.77 " fill="none" id="ScrollOptions-backto-ScrollToOptions" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="157.2,70.71,175.54,60.09,167.82,79.82,157.2,70.71" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a6bda722ce134fc3a1bf7c6ab2c743c7]
+reverse link ScrollOptions to ScrollIntoViewOptions--><path codeLine="18" d="M232.55,75.34 C244.84,89.66 258.59,105.68 270.69,119.77 " fill="none" id="ScrollOptions-backto-ScrollIntoViewOptions" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="227.18,79.82,219.46,60.09,237.8,70.71,227.18,79.82" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a635439dbad309110b4c2c08e5f05640]
+@startuml
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+interface "ScrollOptions" {
+    +behavior : ScrollBehavior
+}
+interface "ScrollToOptions" {
+    +behavior : ScrollBehavior
+    +left : number
+    +top : number
+}
+"ScrollOptions" <|- - "ScrollToOptions"
+interface "ScrollIntoViewOptions" {
+    +behavior : ScrollBehavior
+    +block : ScrollLogicalPosition
+    +inline : ScrollLogicalPosition
+}
+"ScrollOptions" <|- - "ScrollIntoViewOptions"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

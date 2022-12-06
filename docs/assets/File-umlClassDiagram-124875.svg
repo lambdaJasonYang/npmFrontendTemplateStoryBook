@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="281px" preserveAspectRatio="none" style="width:396px;height:281px;background:#00000000;" version="1.1" viewBox="0 0 396 281" width="396px" zoomAndPan="magnify"><defs><filter height="300%" id="f1bd10ewo8zfml" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[63dd87716ef75a5caca5dce59428e94a]
+class File--><rect codeLine="4" fill="#FEFECE" filter="url(#f1bd10ewo8zfml)" height="176.0469" id="File" style="stroke:#A80036;stroke-width:1.5;" width="375" x="7" y="91"/><ellipse cx="179.75" cy="107" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M175.6719,102.7656 L175.6719,100.6094 L183.0625,100.6094 L183.0625,102.7656 L180.5938,102.7656 L180.5938,110.8438 L183.0625,110.8438 L183.0625,113 L175.6719,113 L175.6719,110.8438 L178.1406,110.8438 L178.1406,102.7656 L175.6719,102.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="21" x="200.25" y="111.1543">File</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="381" y1="123" y2="123"/><ellipse cx="18" cy="134" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="27" y="137.2104">lastModified : number</text><ellipse cx="18" cy="146.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="27" y="150.0151">name : string</text><ellipse cx="18" cy="159.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="27" y="162.8198">prototype : Blob</text><ellipse cx="18" cy="172.4141" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="27" y="175.6245">size : number</text><ellipse cx="18" cy="185.2188" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="27" y="188.4292">type : string</text><ellipse cx="18" cy="198.0234" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="27" y="201.2339">webkitRelativePath : string</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="381" y1="207.8281" y2="207.8281"/><ellipse cx="18" cy="218.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="215" x="27" y="222.0386">arrayBuffer() : Promise&lt;ArrayBuffer&gt;</text><ellipse cx="18" cy="231.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="349" x="27" y="234.8433">slice(start: number, end: number, contentType: string) : Blob</text><ellipse cx="18" cy="244.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="232" x="27" y="247.6479">stream() : ReadableStream&lt;Uint8Array&gt;</text><ellipse cx="18" cy="257.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="27" y="260.4526">text() : Promise&lt;string&gt;</text><!--MD5=[e5a31566a426284ac76fed2b84d5255e]
+class Blob--><rect codeLine="16" fill="#FEFECE" filter="url(#f1bd10ewo8zfml)" height="23.9688" id="Blob" style="stroke:#A80036;stroke-width:1.5;" width="33" x="178" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="181" y="23.1387">Blob</text><!--MD5=[ace83598b62a41cdb21e9ab55429c605]
+reverse link Blob to File--><path codeLine="18" d="M194.5,51.21 C194.5,62.78 194.5,76.56 194.5,90.69 " fill="none" id="Blob-backto-File" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="187.5,51.11,194.5,31.11,201.5,51.11,187.5,51.11" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6dc48561ae4960c69e7ef3564ad14ba9]
+@startuml
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+interface "File" {
+    +lastModified : number
+    +name : string
+    +prototype : Blob
+    +size : number
+    +type : string
+    +webkitRelativePath : string
+    +arrayBuffer() : Promise<ArrayBuffer>
+    +slice(start: number, end: number, contentType: string) : Blob
+    +stream() : ReadableStream<Uint8Array>
+    +text() : Promise<string>
+}
+class "Blob"
+hide "Blob" circle
+"Blob" <|- - "File"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

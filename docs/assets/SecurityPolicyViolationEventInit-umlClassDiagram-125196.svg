@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="391px" preserveAspectRatio="none" style="width:341px;height:391px;background:#00000000;" version="1.1" viewBox="0 0 341 391" width="341px" zoomAndPan="magnify"><defs><filter height="300%" id="f15w70i339rpjk" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fe16e2118cc05a38d39783df438965f9]
+class SecurityPolicyViolationEventInit--><rect codeLine="4" fill="#FEFECE" filter="url(#f15w70i339rpjk)" height="232.0703" id="SecurityPolicyViolationEventInit" style="stroke:#A80036;stroke-width:1.5;" width="320" x="7" y="145"/><ellipse cx="65.25" cy="161" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M61.1719,156.7656 L61.1719,154.6094 L68.5625,154.6094 L68.5625,156.7656 L66.0938,156.7656 L66.0938,164.8438 L68.5625,164.8438 L68.5625,167 L61.1719,167 L61.1719,164.8438 L63.6406,164.8438 L63.6406,156.7656 L61.1719,156.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="195" x="85.75" y="165.1543">SecurityPolicyViolationEventInit</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="326" y1="177" y2="177"/><ellipse cx="18" cy="188" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="27" y="191.2104">blockedURI : string</text><ellipse cx="18" cy="200.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="27" y="204.0151">bubbles : boolean</text><ellipse cx="18" cy="213.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="27" y="216.8198">cancelable : boolean</text><ellipse cx="18" cy="226.4141" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="27" y="229.6245">columnNumber : number</text><ellipse cx="18" cy="239.2188" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="27" y="242.4292">composed : boolean</text><ellipse cx="18" cy="252.0234" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="294" x="27" y="255.2339">disposition : SecurityPolicyViolationEventDisposition</text><ellipse cx="18" cy="264.8281" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="27" y="268.0386">documentURI : string</text><ellipse cx="18" cy="277.6328" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="27" y="280.8433">effectiveDirective : string</text><ellipse cx="18" cy="290.4375" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="27" y="293.6479">lineNumber : number</text><ellipse cx="18" cy="303.2422" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="27" y="306.4526">originalPolicy : string</text><ellipse cx="18" cy="316.0469" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="27" y="319.2573">referrer : string</text><ellipse cx="18" cy="328.8516" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="27" y="332.062">sample : string</text><ellipse cx="18" cy="341.6563" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="27" y="344.8667">sourceFile : string</text><ellipse cx="18" cy="354.4609" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="27" y="357.6714">statusCode : number</text><ellipse cx="18" cy="367.2656" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="27" y="370.4761">violatedDirective : string</text><!--MD5=[20555489c30bd85c28b7a7f2623ad986]
+class EventInit--><rect codeLine="21" fill="#FEFECE" filter="url(#f15w70i339rpjk)" height="78.4141" id="EventInit" style="stroke:#A80036;stroke-width:1.5;" width="143" x="95.5" y="7"/><ellipse cx="135.7" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M131.6219,18.7656 L131.6219,16.6094 L139.0125,16.6094 L139.0125,18.7656 L136.5438,18.7656 L136.5438,26.8438 L139.0125,26.8438 L139.0125,29 L131.6219,29 L131.6219,26.8438 L134.0906,26.8438 L134.0906,18.7656 L131.6219,18.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="55" x="155.3" y="27.1543">EventInit</text><line style="stroke:#A80036;stroke-width:1.5;" x1="96.5" x2="237.5" y1="39" y2="39"/><ellipse cx="106.5" cy="50" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="115.5" y="53.2104">bubbles : boolean</text><ellipse cx="106.5" cy="62.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="115.5" y="66.0151">cancelable : boolean</text><ellipse cx="106.5" cy="75.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="115.5" y="78.8198">composed : boolean</text><!--MD5=[df1e277b67e502402e7727c4263531a8]
+reverse link EventInit to SecurityPolicyViolationEventInit--><path codeLine="26" d="M167,105.25 C167,117.58 167,130.99 167,144.6 " fill="none" id="EventInit-backto-SecurityPolicyViolationEventInit" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="160,105.08,167,85.08,174,105.08,160,105.08" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[06e87db6fc525b0d6f33c05c3e8f0ca7]
+@startuml
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+interface "SecurityPolicyViolationEventInit" {
+    +blockedURI : string
+    +bubbles : boolean
+    +cancelable : boolean
+    +columnNumber : number
+    +composed : boolean
+    +disposition : SecurityPolicyViolationEventDisposition
+    +documentURI : string
+    +effectiveDirective : string
+    +lineNumber : number
+    +originalPolicy : string
+    +referrer : string
+    +sample : string
+    +sourceFile : string
+    +statusCode : number
+    +violatedDirective : string
+}
+interface "EventInit" {
+    +bubbles : boolean
+    +cancelable : boolean
+    +composed : boolean
+}
+"EventInit" <|- - "SecurityPolicyViolationEventInit"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

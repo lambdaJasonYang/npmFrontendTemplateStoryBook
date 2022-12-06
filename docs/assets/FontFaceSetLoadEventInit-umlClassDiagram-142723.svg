@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="250px" preserveAspectRatio="none" style="width:218px;height:250px;background:#00000000;" version="1.1" viewBox="0 0 218 250" width="218px" zoomAndPan="magnify"><defs><filter height="300%" id="fpfuj3rdqf31t" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0c7076047c3440a6ab24866476b50512]
+class FontFaceSetLoadEventInit--><rect codeLine="4" fill="#FEFECE" filter="url(#fpfuj3rdqf31t)" height="91.2188" id="FontFaceSetLoadEventInit" style="stroke:#A80036;stroke-width:1.5;" width="197" x="7" y="145"/><ellipse cx="22" cy="161" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M17.9219,156.7656 L17.9219,154.6094 L25.3125,154.6094 L25.3125,156.7656 L22.8438,156.7656 L22.8438,164.8438 L25.3125,164.8438 L25.3125,167 L17.9219,167 L17.9219,164.8438 L20.3906,164.8438 L20.3906,156.7656 L17.9219,156.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="165" x="36" y="165.1543">FontFaceSetLoadEventInit</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="203" y1="177" y2="177"/><ellipse cx="18" cy="188" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="27" y="191.2104">bubbles : boolean</text><ellipse cx="18" cy="200.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="27" y="204.0151">cancelable : boolean</text><ellipse cx="18" cy="213.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="27" y="216.8198">composed : boolean</text><ellipse cx="18" cy="226.4141" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="27" y="229.6245">fontfaces : FontFace[]</text><!--MD5=[20555489c30bd85c28b7a7f2623ad986]
+class EventInit--><rect codeLine="10" fill="#FEFECE" filter="url(#fpfuj3rdqf31t)" height="78.4141" id="EventInit" style="stroke:#A80036;stroke-width:1.5;" width="143" x="34" y="7"/><ellipse cx="74.2" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M70.1219,18.7656 L70.1219,16.6094 L77.5125,16.6094 L77.5125,18.7656 L75.0438,18.7656 L75.0438,26.8438 L77.5125,26.8438 L77.5125,29 L70.1219,29 L70.1219,26.8438 L72.5906,26.8438 L72.5906,18.7656 L70.1219,18.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="55" x="93.8" y="27.1543">EventInit</text><line style="stroke:#A80036;stroke-width:1.5;" x1="35" x2="176" y1="39" y2="39"/><ellipse cx="45" cy="50" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="54" y="53.2104">bubbles : boolean</text><ellipse cx="45" cy="62.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="54" y="66.0151">cancelable : boolean</text><ellipse cx="45" cy="75.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="54" y="78.8198">composed : boolean</text><!--MD5=[77a293eb52d1c0da1d9f53b1bcb8d4ec]
+reverse link EventInit to FontFaceSetLoadEventInit--><path codeLine="15" d="M105.5,105.21 C105.5,118.45 105.5,132.32 105.5,144.89 " fill="none" id="EventInit-backto-FontFaceSetLoadEventInit" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="98.5,105.19,105.5,85.19,112.5,105.19,98.5,105.19" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2d24e4d61eb1669ff2b93ef3f4dc4409]
+@startuml
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+interface "FontFaceSetLoadEventInit" {
+    +bubbles : boolean
+    +cancelable : boolean
+    +composed : boolean
+    +fontfaces : FontFace[]
+}
+interface "EventInit" {
+    +bubbles : boolean
+    +cancelable : boolean
+    +composed : boolean
+}
+"EventInit" <|- - "FontFaceSetLoadEventInit"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
