@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "tsc": "tsc",
+    "rollup": "rollup --config rollup.config.js",
     "build": "npm run clean && tsc",
     "clean": "npm run cleandist && npm run cleandocs",
     "cleandist": "tsc --build --clean",
@@ -33,6 +34,7 @@
   "homepage": "https://userjy.github.io/",
   "devDependencies": {
     "@babel/core": "^7.20.5",
+    "@rollup/plugin-typescript": "^10.0.1",
     "@storybook/addon-actions": "^6.5.14",
     "@storybook/addon-essentials": "^6.5.14",
     "@storybook/addon-interactions": "^6.5.14",
@@ -42,6 +44,7 @@
     "@storybook/manager-webpack4": "^6.5.14",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
+    "rollup": "^3.6.0",
     "typedoc": "^0.23.21",
     "typedoc-plugin-missing-exports": "^1.0.0",
     "typedoc-umlclass": "^0.7.0",

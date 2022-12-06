@@ -1,8 +1,8 @@
 # MWS - Template for building frontend npm packages via Storybook
 ## Summary
 
-1. Write your library in `index.ts` 
-2. `npm run build` : Generate types `index.d.ts` and library `index.js` via typescript tsc into `dist/` folder
+1. Write your library in `src/index.ts` 
+2. `npm run rollup` : Generate types `dist/index.d.ts` and library `dist/index.js` via typescript tsc into `dist/` folder
 3. Create a story for your library like "stories/trial1.stories.ts" and `import { cores } from '../dist/index.js'` to demo it on localhost:6006
 4. `npm pub` Package and publish `dist/` folder
 

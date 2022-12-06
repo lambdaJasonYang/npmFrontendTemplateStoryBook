@@ -15,5 +15,5 @@ const drawCan = () => {
     a.getContext('2d').fillRect(40, 40, 150, 100);
     return a;
 };
-export { drawCan, cores, customtypedstuff, someexternalStuff, somexternalStuff2, bob };
-//# sourceMappingURL=index.js.map
+
+export { bob, cores, customtypedstuff, drawCan, someexternalStuff, somexternalStuff2 };
