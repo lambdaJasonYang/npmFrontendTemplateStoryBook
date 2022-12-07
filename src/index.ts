@@ -2,6 +2,7 @@ const customtypedstuff : bleh = 4
 const someexternalStuff : ErrorConstructor = undefined
 const somexternalStuff2 : Console = undefined
 
+
 interface bobby {
     mode: string;
 }

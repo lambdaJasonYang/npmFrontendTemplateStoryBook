@@ -16,6 +16,11 @@
  * import something from 'module-name';
  * something();
  * ```
+ * 
+ * Usually if you have internal d.ts file like this, it contains ambient types not defined in your module, 
+ * but are present on the system. You are telling typescript "trust me, this stuff exists". 
+ * Those kind of types should not be a part of your packaged npm module types. 
+ * Your client is responsible for providing those (because client is responsible for setting up environment).
  */
 /* Add your own types here */
 declare module 'google-spreadsheet';
